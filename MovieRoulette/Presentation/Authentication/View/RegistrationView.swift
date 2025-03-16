@@ -1,6 +1,6 @@
 //
 //  RegistrationView.swift
-//  ChatBotAI
+//  MovieRoulette
 //
 //  Created by Israel Brea Piñero on 13/3/25.
 //
@@ -20,7 +20,7 @@ struct RegistrationView: View {
     var body: some View {
         VStack {
             // image
-            Image("logo_firebase")
+            Image("logo-netflix")
                 .resizable()
                 .scaledToFit()
                 .padding(32)

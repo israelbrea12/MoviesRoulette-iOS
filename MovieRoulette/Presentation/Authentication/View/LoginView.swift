@@ -1,6 +1,6 @@
 //
 //  LoginView.swift
-//  ChatBotAI
+//  MovieRoulette
 //
 //  Created by Israel Brea Piñero on 13/3/25.
 //
@@ -17,7 +17,7 @@ struct LoginView: View {
         NavigationStack {
             VStack {
                 // image
-                Image("logo_firebase")
+                Image("logo-netflix")
                     .resizable()
                     .scaledToFit()
                     .padding(32)

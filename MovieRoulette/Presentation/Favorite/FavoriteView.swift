@@ -8,11 +8,46 @@
 import SwiftUI
 
 struct FavoriteView: View {
+    @StateObject var favoriteViewModel = FavoriteViewModel()
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ZStack (
+                content: {
+                    switch favoriteViewModel.state {
+                    case .initial,
+                            .loading:
+                        loadingView()
+                    case .error(let errorMessage):
+                        errorView(errorMsg: errorMessage)
+                    case .success:
+                        successView()
+                    default:
+                        emptyView()
+                    }
+                }
+            )}
+    }
+    
+    private func successView() -> some View {
+        Text("success")
+    }
+    
+    private func loadingView() -> some View {
+        ProgressView()
+    }
+    
+    private func emptyView() -> some View {
+        InfoView(message: "No data found")
+    }
+    
+    private func errorView(errorMsg: String) -> some View {
+        InfoView(message: errorMsg)
     }
 }
 
 #Preview {
-    FavoriteView()
+    HomeView()
 }
+

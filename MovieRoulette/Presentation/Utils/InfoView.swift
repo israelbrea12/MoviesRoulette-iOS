@@ -1,8 +1,8 @@
 //
 //  InfoView.swift
-//  ChatBotAI
+//  MovieRoulette
 //
-//  Created by Israel Brea Piñero on 12/3/25.
+//  Created by Israel Brea Piñero on 16/3/25.
 //
 
 import SwiftUI

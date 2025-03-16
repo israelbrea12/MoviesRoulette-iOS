@@ -1,8 +1,8 @@
 //
 //  MainView.swift
-//  ChatBotAI
+//  MovieRoulette
 //
-//  Created by Israel Brea Piñero on 12/3/25.
+//  Created by Israel Brea Piñero on 16/3/25.
 //
 
 import SwiftUI
@@ -12,12 +12,16 @@ struct MainView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Image(systemName: "bubble.left.and.text.bubble.right")
-                    Text("Chats")
+                    Image(systemName: "house.fill")
+                    Text("Home")
                 }
-            ChatBotIAView()
+            RouletteView()
                 .tabItem {
-                    Label("ChatBotIA", systemImage: "translate")
+                    Label("Roulette", systemImage: "popcorn.fill")
+                }
+            FavoriteView()
+                .tabItem {
+                    Label("Favoritos", systemImage: "heart")
                 }
             SettingsView()
                 .tabItem{

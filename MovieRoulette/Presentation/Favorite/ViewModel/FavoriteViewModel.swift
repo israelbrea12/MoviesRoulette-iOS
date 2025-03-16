@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+@MainActor
+final class FavoriteViewModel: ObservableObject {
+    @Published var state: ViewState = .success
+}
