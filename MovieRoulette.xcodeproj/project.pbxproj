@@ -53,6 +53,28 @@
 		4053F86A2D87880A0082785E /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053F8692D87880A0082785E /* Resolver.swift */; };
 		4053F86C2D87880F0082785E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053F86B2D87880F0082785E /* SessionManager.swift */; };
 		4057DB1F2D87889500D2E2B0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4057DB1E2D87889500D2E2B0 /* Swinject */; };
+		4057DB262D8875C300D2E2B0 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB252D8875C300D2E2B0 /* MovieRow.swift */; };
+		4057DB282D8877DA00D2E2B0 /* DataConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB272D8877DA00D2E2B0 /* DataConstant.swift */; };
+		4057DB2B2D887A1300D2E2B0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB2A2D887A1300D2E2B0 /* Movie.swift */; };
+		4057DB2E2D887BCA00D2E2B0 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4057DB2D2D887BCA00D2E2B0 /* CachedAsyncImage */; };
+		4057DB302D88803400D2E2B0 /* GetMoviesParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB2F2D88803400D2E2B0 /* GetMoviesParam.swift */; };
+		4057DB322D88834000D2E2B0 /* GetMovieUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB312D88834000D2E2B0 /* GetMovieUseCase.swift */; };
+		4057DB342D8883D600D2E2B0 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB332D8883D600D2E2B0 /* MovieRepository.swift */; };
+		4057DB362D8884DE00D2E2B0 /* MovieRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB352D8884DE00D2E2B0 /* MovieRepositoryImpl.swift */; };
+		4057DB382D88855000D2E2B0 /* MovieDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB372D88855000D2E2B0 /* MovieDataSource.swift */; };
+		4057DB3A2D88875700D2E2B0 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB392D88875700D2E2B0 /* BaseResponse.swift */; };
+		4057DB3D2D888AA100D2E2B0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB3C2D888AA100D2E2B0 /* MovieModel.swift */; };
+		4057DB3F2D888C9400D2E2B0 /* MovieMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB3E2D888C9400D2E2B0 /* MovieMapper.swift */; };
+		4057DB422D888D8000D2E2B0 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB412D888D8000D2E2B0 /* Favorite.swift */; };
+		4057DB452D888E6400D2E2B0 /* APIManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB442D888E6400D2E2B0 /* APIManagerImpl.swift */; };
+		4057DB472D888F8E00D2E2B0 /* MovieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB462D888F8E00D2E2B0 /* MovieRequest.swift */; };
+		4057DB4A2D888FC100D2E2B0 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB492D888FC100D2E2B0 /* RequestProtocol.swift */; };
+		4057DB4C2D888FE800D2E2B0 /* HTTPMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB4B2D888FE800D2E2B0 /* HTTPMethodType.swift */; };
+		4057DB4E2D8896DC00D2E2B0 /* NetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB4D2D8896DC00D2E2B0 /* NetworkManagerImpl.swift */; };
+		4057DB502D8897BF00D2E2B0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB4F2D8897BF00D2E2B0 /* NetworkError.swift */; };
+		4057DB532D88987A00D2E2B0 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB522D88987A00D2E2B0 /* DataParser.swift */; };
+		4057DB552D8898CF00D2E2B0 /* JsonDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB542D8898CF00D2E2B0 /* JsonDataParser.swift */; };
+		4057DB572D88A10600D2E2B0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057DB562D88A10600D2E2B0 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +122,27 @@
 		4053F8612D8788040082785E /* AuthRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryImpl.swift; sourceTree = "<group>"; };
 		4053F8692D87880A0082785E /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
 		4053F86B2D87880F0082785E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4057DB252D8875C300D2E2B0 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		4057DB272D8877DA00D2E2B0 /* DataConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstant.swift; sourceTree = "<group>"; };
+		4057DB2A2D887A1300D2E2B0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		4057DB2F2D88803400D2E2B0 /* GetMoviesParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMoviesParam.swift; sourceTree = "<group>"; };
+		4057DB312D88834000D2E2B0 /* GetMovieUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieUseCase.swift; sourceTree = "<group>"; };
+		4057DB332D8883D600D2E2B0 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		4057DB352D8884DE00D2E2B0 /* MovieRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepositoryImpl.swift; sourceTree = "<group>"; };
+		4057DB372D88855000D2E2B0 /* MovieDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataSource.swift; sourceTree = "<group>"; };
+		4057DB392D88875700D2E2B0 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		4057DB3C2D888AA100D2E2B0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		4057DB3E2D888C9400D2E2B0 /* MovieMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMapper.swift; sourceTree = "<group>"; };
+		4057DB412D888D8000D2E2B0 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		4057DB442D888E6400D2E2B0 /* APIManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerImpl.swift; sourceTree = "<group>"; };
+		4057DB462D888F8E00D2E2B0 /* MovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequest.swift; sourceTree = "<group>"; };
+		4057DB492D888FC100D2E2B0 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		4057DB4B2D888FE800D2E2B0 /* HTTPMethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodType.swift; sourceTree = "<group>"; };
+		4057DB4D2D8896DC00D2E2B0 /* NetworkManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerImpl.swift; sourceTree = "<group>"; };
+		4057DB4F2D8897BF00D2E2B0 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4057DB522D88987A00D2E2B0 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		4057DB542D8898CF00D2E2B0 /* JsonDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataParser.swift; sourceTree = "<group>"; };
+		4057DB562D88A10600D2E2B0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4053F7EC2D8784290082785E /* FirebaseAuth in Frameworks */,
+				4057DB2E2D887BCA00D2E2B0 /* CachedAsyncImage in Frameworks */,
 				4053F7EE2D8784290082785E /* FirebaseFirestore in Frameworks */,
 				4057DB1F2D87889500D2E2B0 /* Swinject in Frameworks */,
 			);
@@ -143,7 +187,7 @@
 		4053F7FF2D8784F30082785E /* MovieRoulette */ = {
 			isa = PBXGroup;
 			children = (
-				4053F80D2D8785880082785E /* Core */,
+				4053F80D2D8785880082785E /* Utils */,
 				4053F80C2D8785830082785E /* DI */,
 				4053F80B2D87857D0082785E /* Presentation */,
 				4053F80A2D8785770082785E /* Domain */,
@@ -168,6 +212,7 @@
 				4053F85E2D8788040082785E /* Model */,
 				4053F8602D8788040082785E /* DataSource */,
 				4053F8622D8788040082785E /* Repository */,
+				4057DB272D8877DA00D2E2B0 /* DataConstant.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -186,9 +231,9 @@
 		4053F80B2D87857D0082785E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4053F8272D8786A60082785E /* Utils */,
 				4053F8312D87879C0082785E /* Authentication */,
 				4053F82B2D8786F30082785E /* Favorite */,
-				4053F8272D8786A60082785E /* Utils */,
 				4053F81E2D8786830082785E /* Settings */,
 				4053F8122D8786020082785E /* Home */,
 				4053F8182D87864B0082785E /* Roulette */,
@@ -206,19 +251,20 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
-		4053F80D2D8785880082785E /* Core */ = {
+		4053F80D2D8785880082785E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				4053F86B2D87880F0082785E /* SessionManager.swift */,
+				4057DB562D88A10600D2E2B0 /* Extension.swift */,
 			);
-			path = Core;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4053F8122D8786020082785E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4057DB242D8875B500D2E2B0 /* View */,
 				4053F8132D8786070082785E /* ViewModel */,
-				4053F8142D8786170082785E /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -331,10 +377,8 @@
 			isa = PBXGroup;
 			children = (
 				4053F83D2D8787F40082785E /* Base */,
-				4053F83E2D8787F40082785E /* SignInUseCase.swift */,
-				4053F83F2D8787F40082785E /* SignUpUseCase.swift */,
-				4053F8402D8787F40082785E /* SignOutUseCase.swift */,
-				4053F8412D8787F40082785E /* fetchUserUseCase.swift */,
+				4057DB202D8872B900D2E2B0 /* Authentication */,
+				4057DB212D8872CF00D2E2B0 /* Movies */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -343,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				4053F8432D8787F40082785E /* AuthRepository.swift */,
+				4057DB332D8883D600D2E2B0 /* MovieRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -367,6 +412,7 @@
 		4053F84A2D8787F40082785E /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				4057DB292D887A0700D2E2B0 /* Movies */,
 				4053F8472D8787F40082785E /* Auth */,
 				4053F8492D8787F40082785E /* Users */,
 			);
@@ -384,7 +430,9 @@
 		4053F8582D8788040082785E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				4057DB432D888E4500D2E2B0 /* Core */,
 				4053F8572D8788040082785E /* NetworkExtensions.swift */,
+				4057DB392D88875700D2E2B0 /* BaseResponse.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -393,6 +441,7 @@
 			isa = PBXGroup;
 			children = (
 				4053F8592D8788040082785E /* UserMapper.swift */,
+				4057DB3E2D888C9400D2E2B0 /* MovieMapper.swift */,
 			);
 			path = Mappers;
 			sourceTree = "<group>";
@@ -409,6 +458,8 @@
 		4053F85E2D8788040082785E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4057DB402D888D7300D2E2B0 /* Favorite */,
+				4057DB3B2D888A9700D2E2B0 /* Movie */,
 				4053F85D2D8788040082785E /* User */,
 			);
 			path = Model;
@@ -418,6 +469,7 @@
 			isa = PBXGroup;
 			children = (
 				4053F85F2D8788040082785E /* AuthDataSource.swift */,
+				4057DB372D88855000D2E2B0 /* MovieDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -426,8 +478,93 @@
 			isa = PBXGroup;
 			children = (
 				4053F8612D8788040082785E /* AuthRepositoryImpl.swift */,
+				4057DB352D8884DE00D2E2B0 /* MovieRepositoryImpl.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		4057DB202D8872B900D2E2B0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4053F83E2D8787F40082785E /* SignInUseCase.swift */,
+				4053F83F2D8787F40082785E /* SignUpUseCase.swift */,
+				4053F8402D8787F40082785E /* SignOutUseCase.swift */,
+				4053F8412D8787F40082785E /* fetchUserUseCase.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		4057DB212D8872CF00D2E2B0 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB312D88834000D2E2B0 /* GetMovieUseCase.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		4057DB242D8875B500D2E2B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4053F8142D8786170082785E /* HomeView.swift */,
+				4057DB252D8875C300D2E2B0 /* MovieRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4057DB292D887A0700D2E2B0 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB2A2D887A1300D2E2B0 /* Movie.swift */,
+				4057DB2F2D88803400D2E2B0 /* GetMoviesParam.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		4057DB3B2D888A9700D2E2B0 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB3C2D888AA100D2E2B0 /* MovieModel.swift */,
+				4057DB462D888F8E00D2E2B0 /* MovieRequest.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		4057DB402D888D7300D2E2B0 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB412D888D8000D2E2B0 /* Favorite.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		4057DB432D888E4500D2E2B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB482D888FB400D2E2B0 /* Base */,
+				4057DB442D888E6400D2E2B0 /* APIManagerImpl.swift */,
+				4057DB4D2D8896DC00D2E2B0 /* NetworkManagerImpl.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4057DB482D888FB400D2E2B0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB512D88986D00D2E2B0 /* Parser */,
+				4057DB492D888FC100D2E2B0 /* RequestProtocol.swift */,
+				4057DB4B2D888FE800D2E2B0 /* HTTPMethodType.swift */,
+				4057DB4F2D8897BF00D2E2B0 /* NetworkError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4057DB512D88986D00D2E2B0 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4057DB522D88987A00D2E2B0 /* DataParser.swift */,
+				4057DB542D8898CF00D2E2B0 /* JsonDataParser.swift */,
+			);
+			path = Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +587,7 @@
 				4053F7EB2D8784290082785E /* FirebaseAuth */,
 				4053F7ED2D8784290082785E /* FirebaseFirestore */,
 				4057DB1E2D87889500D2E2B0 /* Swinject */,
+				4057DB2D2D887BCA00D2E2B0 /* CachedAsyncImage */,
 			);
 			productName = MovieRoulette;
 			productReference = 4053F7D22D877E7A0082785E /* MovieRoulette.app */;
@@ -482,6 +620,7 @@
 			packageReferences = (
 				4053F7EA2D8784290082785E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				4057DB1D2D87889500D2E2B0 /* XCRemoteSwiftPackageReference "Swinject" */,
+				4057DB2C2D887BCA00D2E2B0 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4053F7D32D877E7A0082785E /* Products */;
@@ -512,15 +651,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4053F8302D87871A0082785E /* FavoriteViewModel.swift in Sources */,
+				4057DB502D8897BF00D2E2B0 /* NetworkError.swift in Sources */,
 				4053F8222D87869A0082785E /* SettingsView.swift in Sources */,
+				4057DB472D888F8E00D2E2B0 /* MovieRequest.swift in Sources */,
+				4057DB552D8898CF00D2E2B0 /* JsonDataParser.swift in Sources */,
 				4053F8632D8788040082785E /* UserModel.swift in Sources */,
+				4057DB282D8877DA00D2E2B0 /* DataConstant.swift in Sources */,
+				4057DB3A2D88875700D2E2B0 /* BaseResponse.swift in Sources */,
 				4053F8642D8788040082785E /* SignInRequest.swift in Sources */,
 				4053F8652D8788040082785E /* AuthRepositoryImpl.swift in Sources */,
+				4057DB342D8883D600D2E2B0 /* MovieRepository.swift in Sources */,
 				4053F8662D8788040082785E /* NetworkExtensions.swift in Sources */,
 				4053F8672D8788040082785E /* AuthDataSource.swift in Sources */,
 				4053F8682D8788040082785E /* UserMapper.swift in Sources */,
 				4053F82D2D8787070082785E /* FavoriteView.swift in Sources */,
 				4053F86A2D87880A0082785E /* Resolver.swift in Sources */,
+				4057DB302D88803400D2E2B0 /* GetMoviesParam.swift in Sources */,
 				4053F8232D87869A0082785E /* SettingsViewModel.swift in Sources */,
 				4053F8012D8784F30082785E /* AppDelegate.swift in Sources */,
 				4053F8172D8786220082785E /* HomeViewModel.swift in Sources */,
@@ -528,29 +674,43 @@
 				4053F8032D8784F30082785E /* MovieRoulette.xcdatamodeld in Sources */,
 				4053F8042D8784F30082785E /* MovieRouletteApp.swift in Sources */,
 				4053F8052D8784F30082785E /* Persistence.swift in Sources */,
+				4057DB3F2D888C9400D2E2B0 /* MovieMapper.swift in Sources */,
+				4057DB452D888E6400D2E2B0 /* APIManagerImpl.swift in Sources */,
 				4053F8362D8787B60082785E /* LoginView.swift in Sources */,
+				4057DB3D2D888AA100D2E2B0 /* MovieModel.swift in Sources */,
 				4053F8372D8787B60082785E /* RegistrationView.swift in Sources */,
 				4053F8152D8786170082785E /* HomeView.swift in Sources */,
 				4053F8282D8786A60082785E /* InfoView.swift in Sources */,
 				4053F8292D8786A60082785E /* SettingsRowView.swift in Sources */,
 				4053F82A2D8786A60082785E /* InputView.swift in Sources */,
 				4053F8102D8785A80082785E /* MainView.swift in Sources */,
+				4057DB262D8875C300D2E2B0 /* MovieRow.swift in Sources */,
 				4053F84D2D8787F40082785E /* SignInUseCase.swift in Sources */,
 				4053F84E2D8787F40082785E /* AuthRepository.swift in Sources */,
 				4053F84F2D8787F40082785E /* SignInParam.swift in Sources */,
+				4057DB322D88834000D2E2B0 /* GetMovieUseCase.swift in Sources */,
 				4053F8502D8787F40082785E /* SignUpUseCase.swift in Sources */,
 				4053F8512D8787F40082785E /* fetchUserUseCase.swift in Sources */,
+				4057DB4A2D888FC100D2E2B0 /* RequestProtocol.swift in Sources */,
+				4057DB572D88A10600D2E2B0 /* Extension.swift in Sources */,
 				4053F8522D8787F40082785E /* UseCaseProtocol.swift in Sources */,
 				4053F8532D8787F40082785E /* SignOutUseCase.swift in Sources */,
+				4057DB4C2D888FE800D2E2B0 /* HTTPMethodType.swift in Sources */,
+				4057DB4E2D8896DC00D2E2B0 /* NetworkManagerImpl.swift in Sources */,
 				4053F8542D8787F40082785E /* User.swift in Sources */,
 				4053F8552D8787F40082785E /* SignUpParam.swift in Sources */,
+				4057DB422D888D8000D2E2B0 /* Favorite.swift in Sources */,
 				4053F8562D8787F40082785E /* AppError.swift in Sources */,
 				4053F81B2D87866A0082785E /* RouletteView.swift in Sources */,
 				4053F8112D8785A80082785E /* ViewState.swift in Sources */,
 				4053F83A2D8787BC0082785E /* AuthenticationFormProtocol.swift in Sources */,
 				4053F83B2D8787BC0082785E /* AuthViewModel.swift in Sources */,
+				4057DB382D88855000D2E2B0 /* MovieDataSource.swift in Sources */,
 				4053F86C2D87880F0082785E /* SessionManager.swift in Sources */,
+				4057DB2B2D887A1300D2E2B0 /* Movie.swift in Sources */,
+				4057DB362D8884DE00D2E2B0 /* MovieRepositoryImpl.swift in Sources */,
 				4053F81D2D8786760082785E /* RouletteViewModel.swift in Sources */,
+				4057DB532D88987A00D2E2B0 /* DataParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,6 +934,14 @@
 				minimumVersion = 2.9.1;
 			};
 		};
+		4057DB2C2D887BCA00D2E2B0 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -791,6 +959,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4057DB1D2D87889500D2E2B0 /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
+		};
+		4057DB2D2D887BCA00D2E2B0 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4057DB2C2D887BCA00D2E2B0 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 
